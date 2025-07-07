@@ -1,0 +1,101 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input y botón */
+#ingresoTarea {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#agregar {
+    padding: 8px 12px;
+    margin-left: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#agregar:hover {
+    background-color: #45a049;
+}
+
+/* Tabla */
+#tablaTareas {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#tablaTareas th, #tablaTareas td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#tablaTareas th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#tablaTareas tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botón eliminar */
+.bttnEliminar {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bttnEliminar:hover {
+    background-color: #c0392b;
+}
+
+/* Mensaje */
+#mensaje {
+    color: red;
+    margin-top: 15px;
+}
+.bttnCompletar {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bttnCompletar:hover {
+    background-color: #2980b9;
+}
+

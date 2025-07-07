@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 5</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>ToDo list</h1>
+    <h2>Listado dinámico de tareas</h2>
+    <input type="text" id="ingresoTarea" placeholder="Ingrese una tarea">
+    <button id="agregar">Agregar tarea</button>
+  <table id="tablaTareas">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tarea</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpoTabla">
+            <!-- Las tareas se agregarán aquí dinámicamente -->
+        </tbody>
+  </table>
+    <p id="tareasTotales"></p>
+    <p id="tareasPendientes"></p>
+    <script src="js/script.js"></script>
+</body>
+</html>
